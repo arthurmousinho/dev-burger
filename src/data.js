@@ -26,7 +26,7 @@ const hamburgers = [
     },
     {
         cover: "assets/hamburgers/bacon-never-end.png",
-        title: "BeconNeverEnd",
+        title: "BaconNeverEnd",
         amount: "42,50",
     },
     {
