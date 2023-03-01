@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Pedido</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <!-- https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- css sheets -->
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/cart.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+
+</head>
+<body>
+    <aside class="sidebar active">
+        
+        <div id="menu-icon-wrapper">
+            <img src="./assets/icons/menu.svg" alt="menu icon" onclick="Sidebar.toggle()" >
+        </div>
+
+        <div class="content">
+            <img src="./assets/logo.png" alt="devburger logo" id="logo">
+            <nav>
+                <a href="./index.html">
+                    <img src="./assets/icons/home.svg" alt="home icon" class="icon">
+                    <span>
+                        Principal
+                    </span>
+                </a>
+
+                <a href="./cart.html">
+                    <img src="./assets/icons/myorder.svg" alt="order icon" class="icon">
+                    <span>
+                        Meu Pedido
+                    </span>
+                </a>
+
+                <a href="https://github.com/arthurmousinho" target="_blank">
+                    <img src="./assets/icons/github.svg" alt="arthurmousiho's github" class="icon">
+                    <span>
+                        GitHub
+                    </span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/arthurmousinho/" target="_blank">
+                    <img src="./assets/icons/linkedin.svg" alt="arthurmousiho's linkedin" class="icon">
+                    <span>
+                        Linkedin
+                    </span>
+                </a>
+
+                
+            </nav>
+        </div>
+    </aside>
+
+    <header class="mobile-header">
+        <button class="mobile-menu" onclick="mobileMenu.toggle()">
+            <img src="./assets/icons/menu.svg" alt="menu icon">
+            <p>Menu</p>
+        </button>
+
+        <nav class="">
+            <a href="./index.html">
+                <img src="./assets/icons/home.svg" alt="home icon" class="icon">
+                <span>
+                    Principal
+                </span>
+            </a>
+
+            <a href="./cart.html">
+                <img src="./assets/icons/myorder.svg" alt="order icon" class="icon">
+                <span>
+                    Meu Pedido
+                </span>
+            </a>
+
+            <a href="https://github.com/arthurmousinho/" target="_blank">
+                <img src="./assets/icons/github.svg" alt="arthurmousiho's github" class="icon">
+                <span>
+                    GitHub
+                </span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/arthurmousinho/" target="_blank">
+                <img src="./assets/icons/linkedin.svg" alt="arthurmousiho's linkedin" class="icon">
+                <span>
+                    Linkedin
+                </span>
+            </a>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Seu Pedido</h1>
+
+        <div class="order-container">
+            <div class="order-info">
+                <div class="total">
+                    <p>Total:</p>
+                    <div>
+                        <small>R$</small>
+                        <p>0,00</p>
+                    </div>
+                </div>
+                <button onclick="Cart.clear()">
+                    Finalizar Compra
+                </button>
+            </div>
+
+            <div class="itens-wrapper">
+               
+
+            </div>
+
+        </div>
+    </main>
+
+    <script>
+
+    </script>
+
+
+    <script src="./src/storage.js"></script>
+    <script src="./src/menu.js"></script>
+    <script src="./src/data.js"></script>
+    <script src="./src/order.js"></script>
+    <script src="./src/dom.js"></script>
+    <script src="./src/cart.js"></script>
+</body>
+</html>

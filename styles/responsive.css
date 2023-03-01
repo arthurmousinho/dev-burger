@@ -1,0 +1,142 @@
+@media (max-width: 1000px) {
+    .sidebar.active #logo {
+        max-width: 80%;
+    }
+
+    .sidebar .content nav a {
+        background-color: transparent;
+    }
+
+    .sidebar .content nav a .icon {
+        width: 30px;
+    }
+
+    .sidebar.active .content nav a .icon{
+        display: none;
+    }
+
+    .sidebar.active .content nav a{
+        font-size: 1rem;
+    }
+
+    .food-card {
+        width: 40%;
+    }
+
+    .food-card .content div p {
+        font-weight: bolder;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .order-info, .itens-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 560px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .mobile-header {
+        text-align: right;
+        padding-left: 10px;
+        width: 100vw;
+        padding-top: 10px;
+    }
+
+    .mobile-header img {
+        width: 100px;
+    }
+
+    .mobile-header .mobile-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100px;
+        background-color: var(--secondary);
+        color: white;
+        border-radius: 5px;
+        border-color: none;
+        border-width: 0px;
+        padding: 0.5rem;
+    }
+
+
+    .mobile-header .mobile-menu img {
+        width: 20px;
+    }
+
+    .side-section-container {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        position: fixed;
+    }
+
+    .mobile-header {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    main {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .food-card {
+        width: 95%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .food-card .food-image {
+        width: 10%;
+    }
+
+    .food-card h3 {
+        font-size: 1rem;
+        width: 200px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .food-card .content {
+        margin-top: 0px;
+    }
+
+    .food-card .content div p {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    .hamburgers-wrapper .container,.acompanhamentos-wrapper .container {
+        gap: 10px;
+    }
+
+    .hamburgers-wrapper h1,.acompanhamentos-wrapper h1 {
+        font-size: 1.5rem;
+    }
+
+    .itens-wrapper .order-title {
+        width: 100px;
+        word-wrap: break-word;
+    }
+}

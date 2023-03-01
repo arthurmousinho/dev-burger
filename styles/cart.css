@@ -1,0 +1,80 @@
+.order-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-info {
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.order-info .total p {
+    color: rgba(255, 255, 255, 0.418);
+}
+
+.order-info button {
+    background-color: var(--green-color);
+    border: none;
+    outline: none;
+    width: 25%;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.itens-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.itens-wrapper .order-item {
+    width: 100%;
+    height: 70px;
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.itens-wrapper .cart-food-preview {
+    width: 8%;
+}
+
+.itens-wrapper .order-title {
+    width: 20%;
+}
+
+.itens-wrapper div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.itens-wrapper div small {
+    color: white;
+}
+
+.itens-wrapper p {
+    color: white;
+}
+
+.itens-wrapper .icon {
+    cursor: pointer;
+}
