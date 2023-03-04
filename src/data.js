@@ -47,16 +47,16 @@ const hamburgers = [
     {
         cover: "assets/hamburgers/commitudo.png",
         title: "Commitudo",
-        amount: "59,99",
+        amount: "49,99",
     },
     {
         cover: "assets/hamburgers/const-fome.png",
         title: "const Fome",
-        amount: "59,99",
+        amount: "49,99",
     },
     {
         cover: "assets/hamburgers/sasslada.png",
         title: "Sasslada",
-        amount: "59,99",
+        amount: "49,99",
     }
 ]
